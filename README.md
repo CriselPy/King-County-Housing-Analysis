@@ -6,7 +6,7 @@ Este repositorio contiene un análisis completo de las ventas de casas en el Con
 
 - **data/**: Contiene el archivo de datos utilizado para el análisis (`kc_house_data.csv`).
 - **notebooks/**: Incluye el notebook de Jupyter con todos los ejercicios y análisis.
-  - `king_county_housing_analysis.ipynb`: Notebook que cubre todos los módulos del análisis.
+- `king_county_housing_analysis.ipynb`: Notebook que cubre todos los módulos del análisis.
 - **images/**: Almacena imágenes y visualizaciones generadas durante el análisis (si es necesario).
 - **scripts/**: Contiene scripts adicionales o funciones personalizadas que pueden haber sido utilizadas (si es necesario).
 - **README.md**: Este archivo que explica la estructura y el propósito del proyecto.
@@ -32,35 +32,30 @@ git clone https://github.com/tu_usuario/king_county_housing_analysis.git
 ```
 ### 2. Navegar al Directorio del Proyecto
 Después de clonar el repositorio, navega al directorio del proyecto:
-```
-bash
+```bash
 cd king_county_housing_analysis
 ```
 ### 3. Instalar las Dependencias
 Asegúrate de tener instaladas todas las dependencias necesarias. Puedes instalarlas utilizando el archivo requirements.txt:
-```
-bash
+```bash
 pip install -r requirements.txt
 ```
 Este comando instalará todas las librerías necesarias para ejecutar el análisis, como pandas, numpy, matplotlib, seaborn y scikit-learn.
 
 ### 4. Abrir el Notebook en Jupyter
 Abre el notebook en Jupyter Notebook:
-```
-bash
+```bash
 jupyter notebook notebooks/king_county_housing_analysis.ipynb
 ```
 Ejecuta las celdas en el notebook para seguir el análisis paso a paso.
 
 ### 5. Ejecutar los Notebooks
 Si no tienes Jupyter Notebook instalado, puedes instalarlo utilizando:
-```
-bash
+```bash
 pip install jupyter
 ```
 Luego, inicia Jupyter Notebook con el siguiente comando:
-```
-bash
+```bash
 jupyter notebook
 ```
 Esto abrirá una interfaz web donde podrás navegar hasta el directorio notebooks/ y abrir el notebook para ver y ejecutar el código.
@@ -69,51 +64,55 @@ Esto abrirá una interfaz web donde podrás navegar hasta el directorio notebook
 
 Aquí se presentan los resultados y visualizaciones obtenidos durante el análisis.
 
-### 1. Visualización de Datos Iniciales
+### 1. Tipos de Datos de Cada Columna
 
-- **Primera vista del DataFrame**
-  ![DataFrame](images/dataframe_head.png)
+- **Visualización de los tipos de datos en el DataFrame**:
+  ![Tipos de Datos](images/Captura%20de%20pantalla%202024-09-10%20124139.png)
 
-- **Resumen estadístico del DataFrame**
-  ![Summary Statistics](images/describe_summary.png)
+### 2. Resumen Estadístico
 
-### 2. Manipulación de Datos
+- **Resumen estadístico del DataFrame después de eliminar las columnas 'id' y 'Sin nombre: 0'**:
+  ![Resumen Estadístico](images/Captura%20de%20pantalla%202024-09-10%20124331.png)
 
-- **Conteo de valores únicos en la columna 'floors'**
-  ![Floor Counts](images/floor_counts.png)
+### 3. Conteo de Valores Únicos de 'floors'
 
-- **Boxplot para determinar los valores atípicos en relación a la vista al mar**
-  ![Waterfront Boxplot](images/waterfront_boxplot.png)
+- **Conteo de valores únicos en la columna 'floors' convertido a DataFrame**:
+  ![Conteo de Floors](images/Captura%20de%20pantalla%202024-09-10%20124827.png)
 
-- **Regplot para determinar la correlación entre 'sqft_above' y 'price'**
-  ![SQFT Above vs Price](images/sqft_above_regplot.png)
+### 4. Boxplot de Precios por Vista al Mar
 
-### 3. Correlación de Características
+- **Boxplot que muestra la comparación de precios para casas con y sin vista al mar**:
+  ![Boxplot Waterfront](images/Captura%20de%20pantalla%202024-09-10%20124904.png)
 
-- **Correlación de características numéricas con el precio**
-  ![Correlation Matrix](images/correlation_matrix.png)
+### 5. Correlación entre 'sqft_above' y Precio
 
-### 4. Modelos de Regresión
+- **Regplot mostrando la correlación entre 'sqft_above' y el precio**:
+  ![Regplot SQFT Above](images/Captura%20de%20pantalla%202024-09-10%20124957.png)
 
-- **Regresión Lineal usando la característica 'long'**
-  ![Linear Regression Long](images/linear_regression_long.png)
+### 6. Regresión Lineal Simple con 'sqft_living'
 
-- **Regresión Lineal usando 'sqft_living'**
-  ![Linear Regression SQFT Living](images/linear_regression_sqft_living.png)
+- **Modelo de regresión lineal usando 'sqft_living' y el valor R²**:
+  ![Linear Regression SQFT Living](images/Captura%20de%20pantalla%202024-09-10%20125219.png)
 
-- **Regresión Lineal con múltiples características**
-  ![Multiple Features Regression](images/multiple_features_regression.png)
+### 7. Regresión Lineal con Múltiples Características
 
-- **Pipeline con características polinómicas**
-  ![Polynomial Pipeline](images/polynomial_pipeline.png)
+- **Modelo de regresión lineal usando múltiples características y el valor R²**:
+  ![Multiple Features Regression](images/Captura%20de%20pantalla%202024-09-10%20125401.png)
 
-### 5. Evaluación y Refinamiento de Modelos
+### 8. Pipeline con Transformación Polinómica
 
-- **Ridge Regression en datos de prueba**
-  ![Ridge Regression](images/ridge_regression.png)
+- **Pipeline que incluye escalado de datos, transformación polinómica, y regresión lineal con su valor R²**:
+  ![Polynomial Pipeline](images/Captura%20de%20pantalla%202024-09-10%20121146.png)
 
-- **Ridge Regression con características polinómicas de segundo orden**
-  ![Ridge Polynomial Regression](images/ridge_polynomial_regression.png)
+### 9. Regresión Ridge
+
+- **Modelo de regresión Ridge ajustado con un parámetro de regularización de 0.1 y el valor R²**:
+  ![Ridge Regression](images/Captura%20de%20pantalla%202024-09-10%20125534.png)
+
+### 10. Regresión Ridge con Transformación Polinómica de Segundo Orden
+
+- **Modelo de regresión Ridge utilizando una transformación polinómica de segundo orden con el valor R²**:
+  ![Ridge Polynomial Regression](images/Captura%20de%20pantalla%202024-09-10%20121146.png)
 
 ## Contribuciones
 Si deseas contribuir al proyecto, por favor abre un issue o un pull request con tus cambios o sugerencias.

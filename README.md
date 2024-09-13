@@ -143,7 +143,7 @@ Aquí se presentan los resultados y visualizaciones obtenidos durante el anális
 ### 8. Pipeline con Transformación Polinómica
 
 - **Pipeline que incluye escalado de datos, transformación polinómica, y regresión lineal con su valor R²**:
-  ![Polynomial Pipeline](images/Captura%20de%20pantalla%202024-09-10%20121146.png)
+  ![Polynomial Pipeline](images/Captura%20de%20pantalla%202024-09-10%20125455.png)
 
 ### 9. Regresión Ridge
 

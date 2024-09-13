@@ -153,7 +153,7 @@ Aquí se presentan los resultados y visualizaciones obtenidos durante el anális
 ### 10. Regresión Ridge con Transformación Polinómica de Segundo Orden
 
 - **Modelo de regresión Ridge utilizando una transformación polinómica de segundo orden con el valor R²**:
-  ![Ridge Polynomial Regression](images/Captura%20de%20pantalla%202024-09-10%20121146.png)
+  ![Ridge Polynomial Regression](images/Captura%20de%20pantalla%202024-09-10%20125713.png)
 
 ## 📚 Documentación
 

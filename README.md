@@ -11,7 +11,7 @@
 Este repositorio contiene un análisis completo de las ventas de casas en el Condado de King, Estados Unidos, realizado en un solo archivo de Jupyter Notebook. El análisis incluye la importación de datos, manipulación, análisis exploratorio, desarrollo de modelos predictivos y su evaluación.
 
 ## 📋 Tabla de contenidos
-
+- [Binder](#-binder)
 - [Visión General del Proyecto](#-visión-general-del-proyecto)
 - [Tecnologías Utilizadas](#-tecnologías-utilizadas)
 - [Instalación](#-instalación)
@@ -34,9 +34,14 @@ Este repositorio contiene un análisis completo de las ventas de casas en el Con
   - [Pipeline con Transformación Polinómica](#pipeline-con-transformación-polinómica)
   - [Regresión Ridge](#regresión-ridge)
   - [Regresión Ridge con Transformación Polinómica](#regresión-ridge-con-transformación-polinómica)
+- [Documentación](#-documentación)
 - [Contribuciones](#-contribuciones)
 - [Autor](#-autor)
 - [Licencia](#-licencia)
+
+## 📦 Binder
+
+Puedes ejecutar este proyecto directamente en un entorno interactivo en [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CriselPy/King-County-Housing-Analysis/main?archivopath=https%3A%2F%2Fgithub.com%2FCriselPy%2FKing-County-Housing-Analysis%2Fblob%2Fmain% 2Fking_county_housing_analysis.ipynb). Esto te permitirá interactuar con el notebook sin necesidad de instalar nada en tu máquina local.
 
 ## 📖 Visión General del Proyecto
 
@@ -151,7 +156,20 @@ Aquí se presentan los resultados y visualizaciones obtenidos durante el anális
 
 - **Modelo de regresión Ridge utilizando una transformación polinómica de segundo orden con el valor R²**:
   ![Ridge Polynomial Regression](images/Captura%20de%20pantalla%202024-09-10%20121146.png)
-  
+
+## 📚 Documentación
+
+En este proyecto se han utilizado varias tecnologías y herramientas. A continuación, se proporciona documentación relevante para cada una de ellas:
+
+- **Documentación de Pandas:** [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
+- **Documentación de NumPy:** [NumPy Documentation](https://numpy.org/doc/stable/)
+- **Documentación de Matplotlib:** [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+- **Documentación de Seaborn:** [Seaborn Documentation](https://seaborn.pydata.org/)
+- **Documentación de Scikit-learn:** [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
+- **Documentación de Jupyter Notebook:** [Jupyter Documentation](https://jupyter.org/documentation)
+
+Esta sección proporciona una visión general de las herramientas y tecnologías empleadas en el proyecto para facilitar su comprensión y uso. Si necesitas más detalles sobre alguna tecnología específica, consulta la documentación proporcionada o busca recursos adicionales en línea.
+
 ## 🤝 Contribuciones
 
 Este proyecto es una solución personal a un ejercicio del curso de IBM "Técnicas Avanzadas de SQL". Dado que fue completado de forma individual, no se incluyen contribuciones externas. ¡Sin embargo, las contribuciones son bienvenidas!
@@ -166,7 +184,8 @@ Agradezco cualquier retroalimentación constructiva que pueda ayudar a mejorar e
 
 ## ✍️ Autor
 
-Este proyecto fue completado por **Crisel Nublo 🪻**.
+Este proyecto fue completado por 
+# Crisel Nublo🪻.
 
 ## 📜 Licencia
 

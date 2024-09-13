@@ -1,0 +1,73 @@
+# Archivos y directorios de caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pklz
+*.zip
+
+# Archivos y directorios de Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.venv/
+
+# Archivos de configuración de entornos
+.env
+.env.*
+
+# Archivos de caché y temporales del sistema
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de datos temporales
+*.csv
+*.xlsx
+*.h5
+*.dat
+*.sqlite
+*.db
+
+# Archivos de compilación
+*.class
+*.jar
+*.war
+*.ear
+
+# Otros archivos
+*.bak
+*.old
+*.orig
+*.dump
+*.sql
+*.sqlite3
+
+# Reglas específicas para sistemas operativos
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~

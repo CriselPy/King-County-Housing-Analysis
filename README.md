@@ -1,17 +1,44 @@
 # Análisis de Ventas de Casas en el Condado de King
+[![Python](https://img.shields.io/badge/Python-v3.9-purple.svg)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-v6.4.5-pink.svg)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/CriselPy/King-County-Housing-Analysis/blob/main/LICENSE/)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-6495ed.svg)](https://github.com/CriselPy/King-County-Housing-Analysis/issues)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Cristina_Ortega-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/cristina-ortega-451750275/)
+[![GitHub](https://img.shields.io/badge/GitHub-CriselPy-pink?logo=github&style=flat-square)](https://github.com/CriselPy)
+[![GitHub stars](https://img.shields.io/github/stars/CriselPy/King-County-Housing-Analysis?style=social&label=Stars)](https://github.com/CriselPy/King-County-Housing-Analysis/stargazers)
+[![Issues](https://img.shields.io/github/issues/CriselPy/King-County-Housing-Analysis?style=flat-square&color=673ab7)](https://github.com/CriselPy/King-County-Housing-Analysis/issues)
 
 Este repositorio contiene un análisis completo de las ventas de casas en el Condado de King, Estados Unidos, realizado en un solo archivo de Jupyter Notebook. El análisis incluye la importación de datos, manipulación, análisis exploratorio, desarrollo de modelos predictivos y su evaluación.
 
-## Estructura del Proyecto
+## 📋 Tabla de contenidos
 
-- **data/**: Contiene el archivo de datos utilizado para el análisis (`kc_house_data.csv`).
-- **notebooks/**: Incluye el notebook de Jupyter con todos los ejercicios y análisis.
-- `king_county_housing_analysis.ipynb`: Notebook que cubre todos los módulos del análisis.
-- **images/**: Almacena imágenes y visualizaciones generadas durante el análisis (si es necesario).
-- **scripts/**: Contiene scripts adicionales o funciones personalizadas que pueden haber sido utilizadas (si es necesario).
-- **README.md**: Este archivo que explica la estructura y el propósito del proyecto.
+- [Visión General del Proyecto](#-visión-general-del-proyecto)
+- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+- [Instalación](#-instalación)
+- [Configuración de Datos](#-configuración-de-datos)
+- [Módulos de Análisis](#-módulos-de-análisis)
+  - [Importación de Datos](#importación-de-datos)
+  - [Manipulación de Datos](#manipulación-de-datos)
+  - [Análisis Exploratorio de Datos](#análisis-exploratorio-de-datos)
+  - [Desarrollo de Modelos](#desarrollo-de-modelos)
+  - [Evaluación y Refinamiento de Modelos](#evaluación-y-refinamiento-de-modelos)
+- [Estructura de Archivos](#-estructura-de-archivos)
+- [Resultados](#-resultados)
+  - [Tipos de Datos](#tipos-de-datos)
+  - [Resumen Estadístico](#resumen-estadístico)
+  - [Valores Únicos de 'floors'](#valores-únicos-de-floors)
+  - [Boxplot de Precios por Vista al Mar](#boxplot-de-precios-por-vista-al-mar)
+  - [Correlación entre 'sqft_above' y Precio](#correlación-entre-sqft_above-y-precio)
+  - [Regresión Lineal con 'sqft_living'](#regresión-lineal-con-sqft_living)
+  - [Regresión con Múltiples Características](#regresión-con-múltiples-características)
+  - [Pipeline con Transformación Polinómica](#pipeline-con-transformación-polinómica)
+  - [Regresión Ridge](#regresión-ridge)
+  - [Regresión Ridge con Transformación Polinómica](#regresión-ridge-con-transformación-polinómica)
+- [Contribuciones](#-contribuciones)
+- [Autor](#-autor)
+- [Licencia](#-licencia)
 
-## Acerca del Proyecto
+## 📖 Visión General del Proyecto
 
 El objetivo de este proyecto es predecir el precio de las casas en el Condado de King utilizando diversas características como tamaño, ubicación y número de habitaciones. El análisis se realiza en un único notebook dividido en los siguientes módulos:
 
@@ -21,7 +48,7 @@ El objetivo de este proyecto es predecir el precio de las casas en el Condado de
 4. **Desarrollo de Modelos**: Creación de modelos predictivos utilizando regresión lineal y pipelines.
 5. **Evaluación y Refinamiento de Modelos**: Evaluación de los modelos creados y refinamiento para mejorar su precisión.
 
-## Cómo Usar este Repositorio
+## ⚙️ Instalación
 
 ### 1. Clonar el Repositorio
 
@@ -41,7 +68,7 @@ Asegúrate de tener instaladas todas las dependencias necesarias. Puedes instala
 pip install -r requirements.txt
 ```
 Este comando instalará todas las librerías necesarias para ejecutar el análisis, como pandas, numpy, matplotlib, seaborn y scikit-learn.
-
+(https://github.com/CriselPy/King-County-Housing-Analysis/blob/main/requirements)
 ### 4. Abrir el Notebook en Jupyter
 Abre el notebook en Jupyter Notebook:
 ```bash
@@ -58,9 +85,19 @@ Luego, inicia Jupyter Notebook con el siguiente comando:
 ```bash
 jupyter notebook
 ```
-Esto abrirá una interfaz web donde podrás navegar hasta el directorio notebooks/ y abrir el notebook para ver y ejecutar el código.
+Si no tienes Jupyter Notebook instalado, puedes instalarlo y luego iniciarlo para abrir el notebook.
 
-## Resultados del Proyecto
+## 📋 Estructura del Proyecto
+
+- **data/**: Contiene el archivo de datos utilizado para el análisis (`kc_house_data.csv`).
+- **notebooks/**: Incluye el notebook de Jupyter con todos los ejercicios y análisis.
+  - `king_county_housing_analysis.ipynb`: Notebook que cubre todos los módulos del análisis.
+- **images/**: Almacena imágenes y visualizaciones generadas durante el análisis (si es necesario).
+- **scripts/**: Contiene scripts adicionales o funciones personalizadas que pueden haber sido utilizadas (si es necesario).
+- **requirements.txt**: Archivo que lista todas las dependencias necesarias para ejecutar el proyecto.
+- **README.md**: Este archivo que explica la estructura y el propósito del proyecto.
+
+## 📝 Resultados del Proyecto
 
 Aquí se presentan los resultados y visualizaciones obtenidos durante el análisis.
 
@@ -113,9 +150,23 @@ Aquí se presentan los resultados y visualizaciones obtenidos durante el anális
 
 - **Modelo de regresión Ridge utilizando una transformación polinómica de segundo orden con el valor R²**:
   ![Ridge Polynomial Regression](images/Captura%20de%20pantalla%202024-09-10%20121146.png)
+  
+## 🤝 Contribuciones
 
-## Contribuciones
-Si deseas contribuir al proyecto, por favor abre un issue o un pull request con tus cambios o sugerencias.
+Este proyecto es una solución personal a un ejercicio del curso de IBM "Técnicas Avanzadas de SQL". Dado que fue completado de forma individual, no se incluyen contribuciones externas. ¡Sin embargo, las contribuciones son bienvenidas!
 
-## Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+Si tienes sugerencias para mejorar los ejercicios, encuentras errores en las consultas o procedimientos, o tienes ideas para agregar nuevas características, te animo a contribuir. Puedes hacerlo de las siguientes maneras:
+
+- **Abrir un Issue:** Si encuentras un error o tienes una sugerencia, abre un [issue](https://github.com/CriselPy/King-County-Housing-Analysis/issues) para discutirlo.
+- **Enviar un Pull Request:** Si has realizado mejoras en el código o has solucionado un problema, siéntete libre de enviar un pull request.
+- **Compartir tus propias soluciones:** Si deseas compartir tus propias soluciones o enfoques para los ejercicios, puedes hacerlo en los comentarios del repositorio.
+
+Agradezco cualquier retroalimentación constructiva que pueda ayudar a mejorar el contenido. Tus contribuciones serán reconocidas y apreciadas.
+
+## ✍️ Autor
+
+Este proyecto fue completado por **Crisel Nublo 🪻**.
+
+## 📜 Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](https://github.com/CriselPy/King-County-Housing-Analysis/blob/main/LICENSE) para más detalles.

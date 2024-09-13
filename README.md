@@ -27,7 +27,7 @@ Este repositorio contiene un análisis completo de las ventas de casas en el Con
   - [Tipos de Datos](#tipos-de-datos)
   - [Resumen Estadístico](#resumen-estadístico)
   - [Valores Únicos de 'floors'](#valores-únicos-de-floors)
-  - [Boxplot de Precios por Vista al Mar](#boxplot-de-precios-por-vista-al-mar)
+  - [Boxplot de Precios por Vista al Mar](*#boxplot-de-precios-por-vista-al-mar)
   - [Correlación entre 'sqft_above' y Precio](#correlación-entre-sqft_above-y-precio)
   - [Regresión Lineal con 'sqft_living'](#regresión-lineal-con-sqft_living)
   - [Regresión con Múltiples Características](#regresión-con-múltiples-características)
@@ -68,7 +68,8 @@ Asegúrate de tener instaladas todas las dependencias necesarias. Puedes instala
 pip install -r requirements.txt
 ```
 Este comando instalará todas las librerías necesarias para ejecutar el análisis, como pandas, numpy, matplotlib, seaborn y scikit-learn.
-(https://github.com/CriselPy/King-County-Housing-Analysis/blob/main/requirements)
+[requirements.txt](https://github.com/CriselPy/King-County-Housing-Analysis/blob/main/requirements)
+
 ### 4. Abrir el Notebook en Jupyter
 Abre el notebook en Jupyter Notebook:
 ```bash

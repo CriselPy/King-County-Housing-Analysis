@@ -95,14 +95,12 @@ Si no tienes Jupyter Notebook instalado, puedes instalarlo y luego iniciarlo par
 
 ## 📋 Estructura del Proyecto
 
-- **data/**: Contiene el archivo de datos utilizado para el análisis (`kc_house_data.csv`).
-- **notebooks/**: Incluye el notebook de Jupyter con todos los ejercicios y análisis.
-  - `king_county_housing_analysis.ipynb`: Notebook que cubre todos los módulos del análisis.
+- `king_county_housing_analysis.ipynb`: Notebook que cubre todos los módulos del análisis.
 - **images/**: Almacena imágenes y visualizaciones generadas durante el análisis (si es necesario).
-- **scripts/**: Contiene scripts adicionales o funciones personalizadas que pueden haber sido utilizadas (si es necesario).
 - **requirements.txt**: Archivo que lista todas las dependencias necesarias para ejecutar el proyecto.
 - **README.md**: Este archivo que explica la estructura y el propósito del proyecto.
-
+- **License**
+- **.gitignore**
 ## 📝 Resultados del Proyecto
 
 Aquí se presentan los resultados y visualizaciones obtenidos durante el análisis.
@@ -110,7 +108,7 @@ Aquí se presentan los resultados y visualizaciones obtenidos durante el anális
 ### 1. Tipos de Datos de Cada Columna
 
 - **Visualización de los tipos de datos en el DataFrame**:
-  ![Tipos de Datos](images/Captura%20de%20pantalla%202024-09-10%20124139.png)
+  ![Tipos de Datos](images/Captura%20de%20pantalla%202024-09-10%2020124139.png)
 
 ### 2. Resumen Estadístico
 

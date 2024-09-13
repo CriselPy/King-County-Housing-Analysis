@@ -1,5 +1,5 @@
 # Análisis de Ventas de Casas en el Condado de King
-[![Python](https://img.shields.io/badge/Python-v3.9-purple.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-v3.9-purpledeep.svg)](https://www.python.org/)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-v6.4.5-pink.svg)](https://jupyter.org/)
 [![License](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/CriselPy/King-County-Housing-Analysis/blob/main/LICENSE/)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-6495ed.svg)](https://github.com/CriselPy/King-County-Housing-Analysis/issues)
@@ -27,7 +27,7 @@ Este repositorio contiene un análisis completo de las ventas de casas en el Con
   - [Tipos de Datos](#tipos-de-datos)
   - [Resumen Estadístico](#resumen-estadístico)
   - [Valores Únicos de 'floors'](#valores-únicos-de-floors)
-  - [Boxplot de Precios por Vista al Mar](*#boxplot-de-precios-por-vista-al-mar)
+  - [Boxplot de Precios por Vista al Mar](#boxplot-de-precios-por-vista-al-mar)
   - [Correlación entre 'sqft_above' y Precio](#correlación-entre-sqft_above-y-precio)
   - [Regresión Lineal con 'sqft_living'](#regresión-lineal-con-sqft_living)
   - [Regresión con Múltiples Características](#regresión-con-múltiples-características)

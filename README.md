@@ -1,6 +1,6 @@
 # Análisis de Ventas de Casas en el Condado de King
-[![Python](https://img.shields.io/badge/Python-v3.9-deepurple.svg)](https://www.python.org/)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-v6.4.5-pink.svg)](https://jupyter.org/)
+[![Python](https://img.shields.io/badge/Python-v3.9-#3572A5.svg)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-v6.4.5-#DA5B0C.svg)](https://jupyter.org/)
 [![License](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/CriselPy/King-County-Housing-Analysis/blob/main/LICENSE/)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-6495ed.svg)](https://github.com/CriselPy/King-County-Housing-Analysis/issues)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Cristina_Ortega-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/cristina-ortega-451750275/)

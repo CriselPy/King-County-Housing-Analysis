@@ -41,7 +41,7 @@ Este repositorio contiene un análisis completo de las ventas de casas en el Con
 
 ## 📦 Binder
 
-Puedes ejecutar este proyecto directamente en un entorno interactivo en [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CriselPy/King-County-Housing-Analysis/main?archivopath=https%3A%2F%2Fgithub.com%2FCriselPy%2FKing-County-Housing-Analysis%2Fblob%2Fmain% 2Fking_county_housing_analysis.ipynb). Esto te permitirá interactuar con el notebook sin necesidad de instalar nada en tu máquina local.
+Puedes ejecutar este proyecto directamente en un entorno interactivo en [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CriselPy/King-County-Housing-Analysis/main?filepath=king_county_housing_analysis.ipynb). Esto te permitirá interactuar con el notebook sin necesidad de instalar nada en tu máquina local.
 
 ## 📖 Visión General del Proyecto
 
